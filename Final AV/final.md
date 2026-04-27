@@ -13,6 +13,7 @@ Honestly for the few hours I gave myself after realizing this was due a week ear
 # Le code
 ## Strudel
 ```
+let deg = 0
 setcpm(100/4)
 _$: n("<0 7 10 7 8 5 7>*4").scale("<g:major _ f:major _ c:major _ c:minor _ >").s("xylophone_soft_ff").trans(-12).adsr("0.4, 0, 1,1").room(0.4).gain(0.2)
 _$: n("<0 7 10 7 8 5 7>*12").scale("<g:major _ f:major _ c:major _ c:minor _ >").s("xylophone_soft_pp").trans(12).adsr("0, 0.001, 0, 0.001").room(0.4).gain(0.1)
